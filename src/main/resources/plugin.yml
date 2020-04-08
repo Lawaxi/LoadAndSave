@@ -1,0 +1,14 @@
+name: LawaxiBackup
+version: ${project.version}
+main: net.lawaxi.backup.Backup
+api-version: 1.13
+authors: [Lawaxi]
+description: Backup For Survival
+website: lawaxi.net
+commands:
+  saveme:
+    description: 备份当前背包
+    usage: /saveme
+  loadme:
+    description: 加载备份
+    usage: /loadme
